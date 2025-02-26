@@ -15,6 +15,7 @@ body{
     text-decoration: none;
     box-sizing: border-box;
    
+   
 }
 .main{
     width: 100%;
@@ -49,10 +50,11 @@ body{
 .menu ul{
     display: flex;
     list-style: none;
+    gap: 20px;
     justify-content: space-between;
 }
 .menu{
-    flex-basis: 27%;
+    flex-basis: 30%;
     text-transform: capitalize;
     font-size: 24px;
     font-weight: 540;

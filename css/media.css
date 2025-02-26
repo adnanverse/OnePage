@@ -1,54 +1,93 @@
-@media only screen and (min-width:425px) and (max-width:768px){
-    .menu{
+@media only screen and (min-width:425px) and (max-width:768px) {
+    .menu {
         flex-basis: 50%;
     }
-    .section{
+
+    .section {
         padding: 0px 20px;
     }
-    .intro{
+
+    .intro {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-}
-.i-img{
-    max-width: 100%;
-}
-.intro-content{
-    max-width: 100%;
-    text-align: center;
-}
-.footer{
-    height: 102vh;
-}
-.c-section{
-    padding-right: 0px;
-}
-    .contact{
+    }
+
+    .i-img {
+        max-width: 100%;
+    }
+
+    .intro-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        height: 102vh;
+    }
+
+    .c-section {
+        padding-right: 0px;
+    }
+
+    .contact {
         padding: 40px 40px;
     }
-    .c-para{
+
+    .c-para {
         padding: 35px 0px;
     }
-    .c-right{
+
+    .c-right {
         flex-basis: 280px;
     }
-    .sub button{
+
+    .sub button {
         padding: 0px 20px;
     }
-    .sub{
+
+    .sub {
         padding-bottom: 30px;
     }
-    .mail{
+
+    .mail {
         padding-bottom: 30px;
     }
-    .phone{
+
+    .phone {
         padding-bottom: 30px;
     }
-    .location{
+
+    .location {
         padding-bottom: 30px;
     }
-    .row4{
-        padding: 50px 0px ;
+
+    .row4 {
+        padding: 50px 0px;
+        justify-content:center ;
+        flex-wrap: wrap;
+        
+        gap: 30px;
+    }
+    .row4 div{
+        text-align: center;
+        flex-basis: 300px;
+    }
+    .w-img{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+    }
+    .w-section{
+        flex-basis: 200px;
+        position: relative;
+        transition: 3s;
+        overflow: hidden;
+        
+    
     }
 }
-@media only screen and 
+
